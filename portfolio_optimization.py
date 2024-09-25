@@ -59,6 +59,7 @@ def optimal_portfolio(returns, N=100, min=0.0, max=1.0):
     A = opt.matrix(1.0, (1, n))
     b = opt.matrix(1.0)
 
+    solvers.options['show_progress']=False
     # Calculate efficient frontier weights using quadratic programming
     portfolios = [solvers.qp(mu*S, -pbar, G, h, A, b)['x']
                   for mu in mus]
