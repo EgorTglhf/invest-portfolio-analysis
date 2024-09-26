@@ -3,3 +3,4 @@ Several projects are showing analytical skills for managing customer portfolios 
 ## List projects
 ### Optimization by cvxopt
 - [__invest-portfolio-analysis-cvxopt__](invest-portfolio-analysis-cvxopt.ipynb): In this project we implement mean-variance analysis of the customer portfolio consisting of 13 shares by using quadratic cone program solver from the CVXOPT library.
+- [__invest-portfolio-analysis-scipy__](invest-portfolio-analysis-scipy.ipynb): In this project we achieve target return of the customer portfolio consisting of 13 shares by using weight optimization from the scipy library.
