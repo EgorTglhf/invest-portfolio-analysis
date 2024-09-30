@@ -11,7 +11,7 @@ def return_portfolios(expected_returns, cov_matrix):
     selected = (expected_returns.axes)[0]
     
     num_assets = len(selected) 
-    num_portfolios = 5000
+    num_portfolios = 50000
     
     for single_portfolio in range(num_portfolios):
         weights = np.random.random(num_assets)
